@@ -4,3 +4,11 @@
 
 # HINT: Here is an example of a setup.py file
 # https://packaging.python.org/tutorials/packaging-projects/
+from setuptools import setup
+
+setup(name='PrCA',
+      version='0.1',
+      description='Principal Component Analysis',
+      packages=['PrCA'],
+      zip_safe=False)
+
